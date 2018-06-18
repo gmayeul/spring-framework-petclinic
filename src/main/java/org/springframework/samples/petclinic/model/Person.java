@@ -27,8 +27,6 @@ import org.hibernate.validator.constraints.NotEmpty;
  */
 @MappedSuperclass
 public class Person extends BaseEntity {
-	
-	olalaerreurdecompilation;
 
     @Column(name = "first_name")
     @NotEmpty
